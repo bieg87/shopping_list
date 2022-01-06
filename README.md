@@ -1,0 +1,1 @@
+Program napisany na potrzeby zalicznia projektu z Systemów urządzeń mobilnych na WSB Poznań.
