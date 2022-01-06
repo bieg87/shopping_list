@@ -22,7 +22,7 @@ class ListCardWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    /// Pick colors from the accent colors based on index
+
     final color = _lightColors[index % _lightColors.length];
     //final time = DateFormat.yMMMd().format(list.date);
     final time = list.date;
@@ -56,7 +56,6 @@ class ListCardWidget extends StatelessWidget {
     );
   }
 
-  /// To return different height for different widgets
   double getMinHeight(int index) {
     switch (index % 4) {
       case 0:

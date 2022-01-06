@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:shopping_list/models/product.dart';
 import 'package:shopping_list/models/shopping_list.dart';
 import 'package:shopping_list/providers/datebase.dart';
-import 'package:shopping_list/screens/list_datail.dart';
 
 class EditableListTile extends StatefulWidget {
   final Product model;

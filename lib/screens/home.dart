@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_list/utilities/create_list_dialog.dart';
-
 import 'lists.dart';
 
 class ShoppingListHomePage extends StatelessWidget {
@@ -8,12 +7,6 @@ class ShoppingListHomePage extends StatelessWidget {
 
   final String title;
   var newListName = '';
-//
-//   @override
-//   State<ShoppingListHomePage> createState() => _ShoppingListPageState();
-// }
-//
-// class _ShoppingListPageState extends State<ShoppingListHomePage> {
 
   @override
   Widget build(BuildContext context) {
@@ -66,7 +59,7 @@ class ShoppingListHomePage extends StatelessWidget {
         },
         tooltip: 'Dodaj listę',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 
